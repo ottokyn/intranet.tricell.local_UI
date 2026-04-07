@@ -25,7 +25,7 @@ This repository consists only of the earlier Frontend. Students must integrate i
 
 ## Installation
 
-git clone
+>git clone https://github.com/ottokyn/intranet.tricell.local_UI.git
 
 ## Dependencies
 
