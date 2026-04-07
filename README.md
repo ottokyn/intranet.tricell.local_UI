@@ -9,7 +9,28 @@ The purpose is to teach first-year uni students how to design and implement a mo
 
 This project builds upon the web application developed in two previous courses in Frontend and Backend, making this course a natural continuation of earlier work.
 
-This repository consists only of the earlier Frontend. Students must integrate it with their own backend created in the previous course.
+This repository contains several different frontend implementations of the same web application.
+Each implementation is stored in a separate Git branch.
+
+---
+
+## Branch Overview
+
+- **main** – Original base version of the application
+
+- **bootstrap-version** – Layout implemented using the Bootstrap framework
+
+- **html5-version** – Layout implementation using semantic HTML5
+
+- **multimedia-version** – Layout implementation using HTML5 including multimedia elements
+
+- **responsive-version** – Responsive layout implementation
+
+- **css-grid-version** – Layout implemented using CSS Grid
+
+## How to View a VersionOn GitHub, select the desired branch from the branch selector at the top of the repository page. Each branch represents a different approach to responsive frontend design.
+
+# This is the css-grid-version
 
 ## Project structure
 
