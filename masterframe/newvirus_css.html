@@ -1,0 +1,68 @@
+<style>
+    /* newvirus_css.html - Stil för virusformuläret */
+    
+    #new-virus-container {
+        width: 100%;
+        max-width: 500px; /* Sätter en maxbredd för formuläret */
+        margin: 20px auto; /* Centrerar på sidan */
+        padding: 20px;
+        border: 2px solid #336699; /* Tricell-blå ram */
+        background-color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    #new-virus-container h1 {
+        text-align: left;
+        color: #000;
+        font-size: 20px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 5px;
+        color: #333;
+        font-weight: normal;
+    }
+
+    /* Gör input-fälten och textarea gråa, med ram och full bredd */
+    .form-group input[type="text"],
+    .form-group textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #999;
+        background-color: #e0e0e0; /* Grå bakgrundsfärg */
+        box-sizing: border-box; /* Ser till att padding inte ökar bredden */
+        font-size: 14px;
+    }
+
+    /* Specifik stil för textarea */
+    .form-group textarea {
+        resize: vertical; /* Tillåt bara vertikal storleksändring */
+    }
+
+    /* Centrerar knappen */
+    .form-group.center {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    #submit-btn {
+        background-color: #ccc;
+        color: #000;
+        border: 1px solid #999;
+        padding: 10px 25px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+    #submit-btn:hover {
+        background-color: #bbb;
+    }
+</style>

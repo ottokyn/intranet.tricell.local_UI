@@ -1,0 +1,44 @@
+<h1>Edit Research Object</h1>
+
+<form name="editvirusform" action="http://localhost:3000/api/editvirus/!{id}" method="post" enctype="multipart/form-data">
+<input type="hidden" name="MAX_FILE_SIZE" value="50000000" />
+
+<br /><p />
+<table>
+<tr>
+<td class="variablecol">NUMBER: &nbsp;</td>
+<td class="valuecol"><input type="text" name="fnumber" id="fnumber" size="20" maxlength="50" value="!{number}" /></td>
+</tr>
+<tr><td class="tablespacer"></td></tr>
+
+<tr>
+<td class="variablecol">NAME: &nbsp;</td>
+<td class="valuecol"><input type="text" name="fname" id="fname" size="40" maxlength="255" value="!{name}" /></td>
+</tr>
+<tr><td class="tablespacer"></td></tr>
+
+<tr>
+<td class="variablecol">SECURITY DATASHEET: &nbsp;</td>
+<td class="valuecol"><input type="text" name="fdatasheet" id="fdatasheet" size="40" maxlength="255" value="" /></td>
+</tr>
+<tr><td class="tablespacer"></td></tr>
+
+<tr>
+<td class="variablecol">PRESENTATION VIDEO: &nbsp;</td>
+<td class="valuecol"><input type="text" name="fpresentationvideo" id="fpresentationvideo" size="40" maxlength="255" value="!{presentationvideo}" /></td>
+</tr>
+<tr><td class="tablespacer"></td></tr>
+
+<tr>
+<td class="variablecol">HANDLING VIDEO: &nbsp;</td>
+<td class="valuecol"><input type="text" name="fhandlingvideo" id="fhandlingvideo" size="40" maxlength="255" value="!{handlingvideo}" /></td>
+</tr>
+</table>
+<br /><p />
+<h1>Text / Details:</h1>
+<textarea rows="8" cols="60" name="ftext" id="ftext" wrap="off">!{text}</textarea>
+
+<p />
+<input type="submit" class="button" value="Edit Object" /><input class="button" type="reset" value="Reset Form" />
+<p />
+</form>

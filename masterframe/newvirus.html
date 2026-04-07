@@ -1,0 +1,40 @@
+<div id="new-virus-container">
+    <h1>Add New Research Object</h1>
+    
+    <form action="/api/newvirus" method="POST" enctype="multipart/form-data">
+        
+        <div class="form-group">
+            <label for="fobjectNumber">Number:</label>
+            <input type="text" id="fobjectNumber" name="fobjectNumber" required>
+        </div>
+
+        <div class="form-group">
+            <label for="fobjectName">Name:</label>
+            <input type="text" id="fobjectName" name="fobjectName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="fobjectText">Text:</label>
+            <textarea id="fobjectText" name="fobjectText" rows="6"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="fsecurityDataSheet">Security DataSheet (URL):</label>
+            <input type="text" id="fsecurityDataSheet" name="fsecurityDataSheet">
+        </div>
+
+        <div class="form-group">
+            <label for="fsecurityPresentationVideo">Security Presentation Video (URL):</label>
+            <input type="text" id="fsecurityPresentationVideo" name="fsecurityPresentationVideo">
+        </div>
+
+        <div class="form-group">
+            <label for="fsecurityHandlingVideo">Security Handling Video (URL):</label>
+            <input type="text" id="fsecurityHandlingVideo" name="fsecurityHandlingVideo">
+        </div>
+
+        <div class="form-group center">
+            <input type="submit" value="Create" id="submit-btn">
+        </div>
+    </form>
+</div>
